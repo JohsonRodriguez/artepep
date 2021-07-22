@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-image: url("../img/fondo.png");
+
+  
+}
+
+.section1{
+    width: 98%;
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .insignia{
+        width: 70px;
+       height: 70px;
+    }
+        
+    .ib{
+        width: 70px;
+        height: 70px;
+    }
+    .section2 img{
+        padding: 10px;
+        margin: 0 auto;
+        display: block;
+    }
+    .menu{
+        padding-top: 30px;
+        width: 70%;
+        margin: 0 auto;
+        
+        justify-content: space-around;
+     }    
+.section1 div{
+    padding: 20px;
+}
+
+.section2{
+    margin-top: -120px;
+    
+}
+
+@media (min-width:320px){
+    .section2 img{
+      padding-top: 90px;
+        width: 430px;
+        height: 400px;
+    }
+    .menu div {
+        margin-top: 0px;
+        padding: 10px;
+        text-align: center;
+        display: flex;
+       
+    }
+    .link1{
+        width: 350px;
+        height: 120px;
+    }
+    .link2{
+        margin-left: 3px;
+        width: 350px;
+        height: 120px;
+    }
+     .link3 {
+        width: 350px;
+        height: 120px;
+    }
+    .link4 {
+        margin-top: 10px;
+        width: 350px;
+        height: 120px;
+    }
+    .link5 {
+        margin-left: 7px;
+        width: 350px;
+        height: 120px;
+    }
+    .link6 {
+        margin-top: 20px;
+        width: 350px;
+        height: 120px;
+    }
+  
+
+}
+@media(min-width:768px){
+   
+    .section2 img{
+        padding-top: 70px;
+          width: 650px;
+          height: 550px;
+      }
+      .menu div {
+        width: 100%;
+        margin-top: 0px;
+        padding: 10px;
+        text-align: center;
+        display: flex;
+       
+    }
+    .link1{
+        width: 350px;
+        height: 120px;
+    }
+    .link2{
+        margin-left: 3px;
+        width: 350px;
+        height: 120px;
+    }
+     .link3 {
+        width: 350px;
+        height: 120px;
+    }
+    .link4 {
+        margin-top: 10px;
+        width: 350px;
+        height: 120px;
+    }
+    .link5 {
+        margin-left: 7px;
+        width: 350px;
+        height: 120px;
+    }
+    .link6 {
+        margin-top: 20px;
+        width: 350px;
+        height: 120px;
+    }
+}
+
+@media(min-width:1024px){
+    .section2 img{
+        margin-top: 50px;
+        margin-left: 60px;
+        width: 660px;
+        height: 560px;
+    }
+
+    .art{
+        width: auto;
+        display: flex;
+        text-align: left;
+    }
+    .menu{
+        margin-top: -20px;
+        width: auto;
+        text-align: left;
+        padding-left: -10px;
+    }
+   
+    .menu div {
+        width: auto;
+        margin-top: -50px;
+        text-align: left;
+        
+        
+        
+    }
+    .link1{
+        width: 350px;
+        height: 120px;
+    }
+    .link2{
+        margin-left: 3px;
+        width: 350px;
+        height: 120px;
+    }
+     .link3 {
+        width: 350px;
+        height: 120px;
+    }
+    .link4 {
+        margin-top: 10px;
+        width: 350px;
+        height: 120px;
+    }
+    .link5 {
+        margin-left: 7px;
+        width: 350px;
+        height: 120px;
+    }
+    .link6 {
+        margin-top: 20px;
+        width: 350px;
+        height: 120px;
+    }
+    
+    
+
+}
